@@ -1,0 +1,33 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --accent-color: hsl(0, 0%, 100%);
+    --accent-2-color: hsl(0, 0%, 50%);
+    --text-color: hsl(0, 0%, 7%);
+
+    --font-size: 16px;
+    --weight-1: 500;
+    --weight-2: 600;
+}
+
+html, body {
+    font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: var(--font-size);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+}
